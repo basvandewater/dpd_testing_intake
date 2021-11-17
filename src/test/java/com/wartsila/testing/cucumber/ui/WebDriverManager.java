@@ -9,6 +9,7 @@ public class WebDriverManager {
 
     public static RemoteWebDriver getWebDriver() {
         if (webDriver == null) {
+            System.setProperty("webdriver.chrome.driver", "chromedriver");
             webDriver = new ChromeDriver(new ChromeOptions());
         }
 
