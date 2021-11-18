@@ -2,7 +2,7 @@
 
 Here you will find a simple cucumber test setup for intake testing.
 
-The project contains a feature file in `src/test/resources.demo.feature>`.
+The project contains a feature file in `src/test/resources.demo.feature`.
 
 The WebDriver for chrome is downloaded via the webdrivermanager plugin
 
